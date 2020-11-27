@@ -1,0 +1,115 @@
+
+nav{
+	height: 70px;
+}
+
+
+li{
+	display:inline;
+	text-align: center;
+	padding:14px 16px;
+	list-style-type: none;
+	margin-left: 120px;
+
+}
+
+body {
+  margin: 0;
+}
+.full {
+  width: 100%;
+  height: 300px;
+}
+
+}
+.navibar {
+  height: 90px;
+  overflow: hidden;
+  background-color: #323643;
+  
+
+/*nav {
+  position: static;
+ 
+  left: 30%;
+
+}*/
+
+nav{
+	/*background-color: blue;*/
+	height: 2 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+}
+li {
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a {
+  color: white;
+}
+li a:hover {
+
+  color: blue;
+}
+li a:link {
+  text-decoration: none;
+}
+.busstop {
+  display: flex;
+  flex-wrap: nowrap;
+
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid wheat;
+  width: 50%;
+  margin-left: 400px;
+
+}
+
+.busstop > div {
+  text-align: center;
+
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16px;
+ 
+}
+.zine {
+  margin-left: 16px;
+}
+.enzy {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+h3 a{
+	text-decoration: none;
+}
+.semi-footer {
+  width: 100%;
+  height: 70px;
+  background-color: #333333;
+  float: left;
+}
+.icon {
+  float: right;
+  margin-top: -30px;
+  margin-right: 50px;
+  color: white;
+}
+h4 {
+  margin-left: 30px;
+  color: white;
+  font-family: Agency FB;
+}
+.stuff{
+	height: 400px;
+}

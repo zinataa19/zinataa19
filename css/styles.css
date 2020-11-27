@@ -1,0 +1,357 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;color: white;
+}
+
+body{margin: 0;}
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #3fc7b0;
+}
+
+.flip-card-back {
+  background-color: rgba(26, 191, 188);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.flip-card2{
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner2{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card2:hover .flip-card-inner2{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front2, .flip-card-back2{
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front2{
+  background-color: #f67a68;
+  color:rgb(255, 255, 255) ;
+}
+
+.flip-card-back2 {
+  background-color: rgb(232, 75, 44);
+  color: white;
+  transform: rotateY(180deg);
+}
+ 
+
+.flip-card3{
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner3{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card3:hover .flip-card-inner3{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front3, .flip-card-back3{
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front3{
+  background-color:#339bc2;
+  color: rgb(255, 255, 255);
+}
+
+.flip-card-back3 {
+  background-color: rgb(25, 133, 183);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.flip-card4{
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner4{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card4:hover .flip-card-inner4{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front4, .flip-card-back4{
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front4{
+  background-color:#c83f43;
+  color:rgb(255, 255, 255);
+}
+
+.flip-card-back4 {
+  background-color: rgb(183, 45, 50);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.flip-card5{
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner5{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card5:hover .flip-card-inner5{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front5, .flip-card-back5{
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front5{
+  background-color:#a96eb7;
+  color: rgb(255, 255, 255);
+}
+
+.flip-card-back5 {
+  background-color: rgb(160, 66, 183);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.flip-card6{
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner6{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card6:hover .flip-card-inner6{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front6, .flip-card-back6{
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front6{
+  background-color:#be8864;
+  color: rgb(255, 255, 255);
+}
+ 
+.flip-card-back6 {
+  background-color: rgb(191, 109, 55);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*:root{
+--section12_height: 1000px;
+--section345_height:800px;
+--section_width:100%;
+}*/
+
+
+
+
+nav{
+	/*background-color: blue;*/
+	height: 2 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+
+li{
+	display:inline;
+	text-align: center;
+	padding:14px 16px;
+	list-style-type: none;
+	margin-left: 120px;
+
+}
+.container1{
+	height: 800px;
+	background-image: url("../images/slider/slider.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*border: 1px solid black*/
+}
+
+
+.container2{
+	height: 1200px;
+	
+	background-image: url("../images/tech.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+}
+
+.container3{
+	height: 800px;
+	
+	background-image: url("../images/apps.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	 
+}
+.container4{
+	height: 900px;
+	width: 100%;
+	background-color: white; 
+}
+
+
+footer{
+	height: 100px;
+	
+	background-color:#7478d8;
+}
+
+.grid-container {		
+  display: grid;
+  grid-gap: 70px;
+  grid-template-columns: auto auto auto;
+  margin-left: 50px;
+  margin-top: 90px;
+}		
+div.text{
+	margin-top: 250px;
+	margin-left: auto;
+	margin-right:auto;
+	display: block;
+	height:700px;
+	color: white;
+	text-align:center; 
+}
+
+.semi-footer {
+  width: 100%;
+  height: 70px;
+  background-color: #333333;
+  float: left;
+}
+
+.button{
+	background-color:white;
+	padding-left: 50px; 
+	text-align: center; 
+   	display: inline-block; 
+    color: black ;
+    margin: 5px 5px; 
+    cursor: pointer; 
+	border-radius: 80px 80px;
+	font-size: 10px;
+
+}
